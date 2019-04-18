@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*
+Theme Name: Tracks
+Theme URI: https://www.competethemes.com/tracks/
+Author: Compete Themes
+Author URI: https://www.competethemes.com
+Description: A bold, beautiful, and responsive theme. Tracks is perfect for personal blogs, magazines, and photography websites. It includes a logo uploader, over 50+ social media icons, search bar, comment display controls, premium layouts, and more. Tracks has a dark, simple, and minimalist design that makes it great for publish both text and image based content. Use it for a travel blog, online newspaper, video site, or podcast. As a free theme, you can use Tracks for as many projects as you’d like. Preview Tracks now on desktop, tablets, and mobile devices with the interactive live demo: https://www.competethemes.com/demos/?theme=tracks
+Version: 1.59
+Tags: one-column, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, portfolio
+Text Domain: tracks
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tracks WordPress Theme, Copyright 2017 Compete Themes
+Tracks is distributed under the terms of the GNU GPL
+*/
+/*===== Variables =====*/
+/* Theme Colors */
+.site-title, .toggle-navigation i {
+  font-size: 2.625em;
+  line-height: 1.5em;
+  font-family: adorn-condensed-sans, sans-serif;
+  /*font-weight: 400;*/
+  font-style: normal;
+
+  
+}
+.site-description{
+  line-height: 1.80em;
+};
+
+.archive-header h1 {
+    font-family: adorn-condensed-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5;
+    display: inline-block;
+}
+.design-credit {
+    background: #110800;
+    font-size: 0.60em;
+    color: #8c8c8c;
+    padding: 0.75em 0;
+    margin-top: 48px;
+  }
+  .top-navigation {
+    position: relative;
+    left: -6%;
+    width: 112%;
+    min-height: 0em;
+
+  
+    padding: 0.375em 5.55%;
+    margin: -0.75em 0 0;
+    line-height: 0;
+  }
+  .top-navigation ~ button {
+    top: 2.25em;
+  }
+  .top-navigation .container {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .top-navigation .container:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .rtl .top-navigation {
+    right: -6%;
+  }
+  
+  /* 600px */
+  @media all and (min-width: 37.5em) {
+    .top-navigation {
+      margin-top: -0.75em;
+      left: -6.2%;
+      width: 112.4%;
+      z-index: 39;
+    }
+  }
+  /* 800px */
+  @media all and (min-width: 50em) {
+    .top-navigation {
+      margin: -2.25em 0 1.5em 0;
+    }
+  }
